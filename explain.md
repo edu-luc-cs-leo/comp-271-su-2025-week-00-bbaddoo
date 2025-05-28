@@ -1,4 +1,4 @@
-Part 1: The first two lines(40-41) take elements from the beginning of the array and put them into a temporary array. This also does not include the smallest_index. Then. there is a second loop that is startinf right after the smallest_index in the array and goes until it is done. It then is out into a temporary array that is one less than the original position. 
+Part 1: The first two lines(40-41) take elements from the beginning of the array and put them into a temporary array. This also does not include the smallest_index. Then. there is a second loop (43-44) that is starting right after the smallest_index in the array and goes until it is done. It then is out into a temporary array that is one less than the original position. 
 
 This shifts it over to the left by one.
 
