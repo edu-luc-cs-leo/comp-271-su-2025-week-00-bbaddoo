@@ -7,6 +7,21 @@ public class Realistic {
 
     /** Set up our test array. */
     static int[] arr = { 10, -5, 11, 2 };
+    //new array with an extra space
+    int[] hwArr = new int[arr.length + 1];
+
+    public static void add(int value)
+    //put all elements into a new array
+    for (int 1 = 0; i < arr.length; i++) {
+        hwArr[i] = arr[i];
+    }
+    //add the new value to the last position
+    hwArr[hwArr.length - 1] = value;
+     
+     //update to show the new array
+    arr = hwArr;
+
+}
 
     /**
      * Scan the entire array to find and remove its smallest value.
